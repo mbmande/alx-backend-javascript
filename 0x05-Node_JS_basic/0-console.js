@@ -3,9 +3,9 @@
  * @param {String} msg The message to display.
  * ==============
  */
+function displayMessage(str) {
+	console.log(str); // ==============
+}
 
-const displayMessage = (msg) => {
-	console.log(msg);
-};
-
+// ==============
 module.exports = displayMessage;
