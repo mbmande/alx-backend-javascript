@@ -10,4 +10,5 @@ const calculateNumber = (type, a, b) => {
   }
   return 0;
 };
+
 module.exports = calculateNumber;
