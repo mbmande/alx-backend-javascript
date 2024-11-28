@@ -1,6 +1,5 @@
 // ==========
 // ==========
-//
 
 const calculateNumber = (type, a, b) => {
   if (type === 'SUM') {
@@ -14,4 +13,5 @@ const calculateNumber = (type, a, b) => {
   }
   return 0;
 };
+
 module.exports = calculateNumber;
