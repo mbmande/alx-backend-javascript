@@ -1,10 +1,3 @@
-/**
- * jhfdhg
- * fjhghg
- *
- * dfjhdbj
- */
-
 export default class HolbertonClass {
   constructor(size, location) {
     this._size = size;
