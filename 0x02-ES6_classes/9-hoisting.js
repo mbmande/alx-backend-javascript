@@ -1,11 +1,10 @@
 // 9-hoisiting.js
 /* eslint-disable max-classes-per-file */
 /**
- * hdkjvhdjhs
- * jshfhskfjskf
- * jnng
+ * sfs
+ * sffhksfgjss
  *
- * jsfjhksf
+ * dhhkd
  */
 
 export class HolbertonClass {
@@ -22,6 +21,7 @@ export class HolbertonClass {
     return this._location;
   }
 }
+
 // rearranged code to make sure HolbertonClass class is declared before it is used
 const class2019 = new HolbertonClass(2019, 'San Francisco');
 const class2020 = new HolbertonClass(2020, 'San Francisco');
@@ -36,13 +36,16 @@ export class StudentHolberton {
   get fullName() {
     return `${this._firstName} ${this._lastName}`;
   }
+
   get holbertonClass() {
     return this._holbertonClass;
   }
+
   get fullStudentDescription() {
     return `${this._firstName} ${this._lastName} - ${this._holbertonClass.year} - ${this._holbertonClass.location}`; // changed self to this
   }
 }
+
 // rearranged code to make sure StudentHolberton class is declared before it is used
 const student1 = new StudentHolberton('Guillaume', 'Salva', class2020);
 const student2 = new StudentHolberton('John', 'Doe', class2020);
@@ -57,4 +60,5 @@ const listOfStudents = [
   student4,
   student5,
 ];
+
 export default listOfStudents;
